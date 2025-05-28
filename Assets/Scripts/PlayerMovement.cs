@@ -1,26 +1,26 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerCtrl :MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private Rigidbody2D rb;
-    private Vector2 movement;
 
-    void Start()
+    private Rigidbody2D rb;
+    private float speedX;
+    private float speedY;
+
+    void Start ()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void Update ()
     {
-        // Captura das setas do teclado
-        movement.x = Input.GetAxisRaw("Horizontal"); // Esquerda (-1), Direita (+1)
-        movement.y = Input.GetAxisRaw("Vertical");   // Baixo (-1), Cima (+1)
+        speedX = Input.GetAxisRaw("Horizontal");
+        speedY = Input.GetAxisRaw("Vertical");
     }
 
-    void FixedUpdate()
+    void FixedUpdate ()
     {
-        // Movimentação baseada na física
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(speedX * moveSpeed, speedY * moveSpeed);
     }
 }
