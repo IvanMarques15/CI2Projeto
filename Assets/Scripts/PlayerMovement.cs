@@ -38,13 +38,31 @@ public class PlayerCtrl : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("frango"))
         {
-            Debug.Log("TOCOU NO FRANGO");
+
             SceneManager.LoadScene("Derrota");
         }
         else if (collision.gameObject.CompareTag("melancia"))
         {
-            Debug.Log("TOCOU NA MELANCIA");
-            
+            string cenaAtual = SceneManager.GetActiveScene().name;
+
+            if (cenaAtual == "Nivel 1")
+            {
+                SceneManager.LoadScene("Nivel 2");
+            }
+            else if (cenaAtual == "Nivel 2")
+            {
+                SceneManager.LoadScene("Nivel 3");
+            }
+            else if (cenaAtual == "Nivel 3")
+            {
+                SceneManager.LoadScene("Vitoria");
+            }
+        }
+
+        else if (collision.gameObject.CompareTag("donet"))
+        {
+
+            SceneManager.LoadScene("Derrota");
         }
     }
 }

@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Instro\xE7oes Jogo 3.unity"
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Nivel 1.unity
+    guid: 561b16fd33d3c6247b461243d8dc47e0
+  - enabled: 1
+    path: Assets/Scenes/Nivel 2.unity
+    guid: e68ee73cbc9f77a4da699c89ec0a526d
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: bc28214615510fb448d0e2aa5ded4ec2
+  - enabled: 1
+    path: Assets/Scenes/Vitoria.unity
+    guid: bfbdefa037abd8b448d52c2dbe108bfc
+  - enabled: 1
+    path: Assets/Scenes/Derrota.unity
+    guid: 36d8480059a76334886ad0be6bd7e17b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

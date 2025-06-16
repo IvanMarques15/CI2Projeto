@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fb7c23ccc3279c94c9172908cb466bd8
+guid: 6651ceb7ccb2fe74cbeb846ab0879c2b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3470232027045427204
-    second: Desktop - 5_0
+      213: 5878466855972923620
+    second: Tenta Novamnete_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Desktop - 5_0
+      name: Tenta Novamnete_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4378
-        height: 3113
+        x: 37
+        y: 88
+        width: 948
+        height: 801
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 408f93c74adb82030800000000000000
-      internalID: 3470232027045427204
+      spriteID: 4e86c26c572849150800000000000000
+      internalID: 5878466855972923620
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Desktop - 5_0: 3470232027045427204
+      Tenta Novamnete_0: 5878466855972923620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
