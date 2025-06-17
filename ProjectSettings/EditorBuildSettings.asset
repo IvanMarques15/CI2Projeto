@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Derrota.unity
     guid: 36d8480059a76334886ad0be6bd7e17b
+  - enabled: 1
+    path: Assets/Scenes/cutscene 3.unity
+    guid: f9f1646e3f4e8f6478433c826b6db0b6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
